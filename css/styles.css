@@ -1,0 +1,108 @@
+/* Incorporação da fonte */
+@font-face{  
+    font-family: LubNormal;  
+    src: url('../recursos/LUBGRHN.TTF') format("truetype");
+}
+
+@font-face{
+    font-family: LubBold;  
+    src: url('../recursos/LUBGRHB.TTF') format("truetype");
+}
+
+/* endOf Incorporação da fonte */
+
+body{
+    background:rgb(196, 167, 123);
+}
+
+    #cabecalho{
+        text-align:center;
+    }
+
+        .slogan h1{
+            font-weight:300;
+            font-size:40px;
+            font-family:'LubBold';
+            color:rgb(199, 172, 127);
+        }
+
+        .menu ul{
+            list-style-type:none;
+            display:inline;
+        }
+
+            .menu li{
+                width:auto;
+                float:left;
+            }
+
+                .menu a{
+                    text-transform:uppercase;
+                    text-decoration:none;
+                    font-weight:bold;
+                    font-family:'LubNormal';
+                    font-size:16px;
+                    color:rgb(71, 44, 37);
+                }
+
+                .menu a:hover{
+                    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+                    color:rgb(100, 44, 37);
+                }
+
+    .cabecalho-box{
+        text-align:center;
+        color:rgb(246, 194, 14);
+        font-family:'LubBold';
+    }
+
+        #conteudo .cabecalho-box{
+            text-align:left;
+        }
+
+        .cabecalho-box:hover{
+            color:rgb(246, 170, 0);   
+        }
+
+            .cabecalho-box h1{
+                font-weight:300;
+                font-size:40px;
+            }
+
+    .ingressos{
+        text-align:center;
+    }
+
+        .ingressos h2{
+            color:rgb(76, 46, 36);
+            font-size:30px;
+            font-weight:300;
+            font-family:'LubBold';
+        }
+
+    #conteudo p{
+        text-align:justify;
+        font-size:20px;
+        line-height:25px;
+    }
+
+    #rodape{
+
+    }
+
+        #rodape p{
+            text-align:center;
+            font-size:20px;
+            margin-bottom:0;
+        }
+
+            #rodape a{
+                text-decoration:none;
+                font-size:12px;
+                font-weight:bold;
+                color:rgb(0, 0, 0);
+            }
+
+            #rodape a:hover{
+                border-bottom:1px dotted rgb(0, 0, 0);
+            }

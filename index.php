@@ -27,7 +27,7 @@
             </div>
 
             <div class="navegacao">
-                <div class="menu grid_12">
+                <div class="menu container_12">
                     <ul>
                         <li><a href="#" title="Inicial">Inicial</a></li>
                         <li><a href="#" title="A quintaneja">A quintaneja</a></li>
@@ -39,7 +39,7 @@
                     </ul>
                 </div> <!-- endOf Menu -->
             </div> <!-- endOf Navegação -->
-\
+
         </div> <!-- endOf Cabeçalho -->
 
         <div id="container" class="container_12">
