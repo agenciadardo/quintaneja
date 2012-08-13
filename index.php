@@ -16,13 +16,13 @@
  
         <div id="cabecalho">
             
-            <div class="logotipo grid_12">
+            <div class="logotipo container_12">
                 <a href="#" title="Quintaneja &#8212; A maior quinta sertaneja do ABC">
                     <img src="" alt="Quintaneja &#8212; A maior quinta sertaneja do ABC" />
                 </a>
             </div>
             
-            <div class="slogan grid_12">
+            <div class="slogan container_12">
                 <h1>A melhor festa do ABC</h1>
             </div>
 
@@ -58,12 +58,18 @@
                         <h1>Bem-vindo a nossa festa!</h1>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        A nossa festa sertaneja acontece todas as quintas-feiras
+                        do mês, trazendo sempre uma ótima atração.
+                        São diversos artistas da região que agitam a nossa
+                        noite, sempre com muita música, alegria e 
+                        descontração.
+                        <br />
+                        Gente bonita, mulheres VIP até as 00h, segurança,
+                        premiações e muito mais! Venha curtir com a gente
+                        e traga seus amigos para nossa festa!
+                        <br />
+                        Isso tudo faz da Quintaneja a melhor quinta-feira
+                        do ABC!!!
                     </p>
                 </div> <!-- endOf Boas-vindas -->
 
