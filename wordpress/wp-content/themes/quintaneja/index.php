@@ -13,7 +13,7 @@
     <div id="conteudo" class="alpha grid_8 omega">
         <div class="boas-vindas">
             <div class="cabecalho-box">
-                <h1>Bem-vindo a nossa festa!</h1>
+                <h1 class="uppercase">Bem-vindo a nossa festa!</h1>
             </div>
 
             <div class="mensagem-boas-vindas">
@@ -43,7 +43,7 @@
 
         <div class="galeria-fotos">
             <div class="cabecalho-box">
-                <h1>Galeria de fotos</h1>
+                <h1 class="uppercase">Galeria de fotos</h1>
             </div>
             
             <div class="album-fotos">
@@ -63,7 +63,26 @@
         </div><!--  endOf Galeria de fotos -->
 
         <div class="facebook-app">
-            <p>Facebook</p>                
+            <div class="facebook-cabecalho">
+                
+                <div class="facebook-icon">
+                    <img src="<?php bloginfo('template_url') ?>/imagens/facebook-icon.png" alt="" />
+                </div>
+
+                <h1>Facebook</h1>
+            </div>
+
+            <div class="facebook-app-box">
+                <div class="fb-like-box" 
+                     data-href="http://www.facebook.com/QuintanejaSertaneja" 
+                     data-width="570" 
+                     data-height="320" 
+                     data-show-faces="true" 
+                     data-border-color="#F3E9CB" 
+                     data-stream="false" 
+                     data-header="false">
+                 </div>
+            </div> <!-- endOf Facebook App Box -->
         </div> <!-- endOf Facebook App -->
 
     </div> <!-- endOf Conteúdo -->
