@@ -1,0 +1,198 @@
+/* Incorporação da fonte */
+@font-face{  
+    font-family:LubNormal;  
+    src:url('../recursos/LUBGRHN.TTF') format("truetype");
+}
+
+@font-face{
+    font-family:LubBold;  
+    src:url('../recursos/LUBGRHB.TTF') format("truetype");
+}
+
+/* endOf Incorporação da fonte */
+
+/* Efeitos */
+*::selection {
+    background:rgb(71, 44, 37);
+}
+
+*::-moz-selection {
+    background:rgb(71, 44, 37);
+}
+
+/* endOf Efeitos */
+
+body{
+    height:100%;
+    background:rgb(71, 44, 37) url('../imagens/bg-body.jpg');
+}
+
+    #cabecalho{
+        background:url('../imagens/bg-cabecalho.jpg');
+        text-align:center;
+    }
+
+        .logotipo img{
+            width:380px;
+        }
+
+        .slogan h1{
+            font-weight:300;
+            font-size:40px;
+            font-family:'LubBold';
+            color:rgb(199, 172, 127);
+        }
+
+        .navegacao{
+            box-shadow:0px 5px 25px rgb(0, 0, 0);
+            text-align:center;
+            line-height:80px;
+            height:80px;
+            background:url('../imagens/bg-menu.png') repeat-x center center;
+            background-size:cover;
+            filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./imagens/bg-menu.png', sizingMethod='scale');
+            -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./imagens/bg-menu.png', sizingMethod='scale')";
+        }
+
+        .menu ul{
+            list-style-type:none;
+            display:inline-block;
+        }
+
+            .menu li{
+                margin-left:20px;
+                width:auto;
+                float:left;
+            }
+
+                .menu a{
+                    text-transform:uppercase;
+                    text-decoration:none;
+                    font-family:'LubBold';
+                    font-size:17px;
+                    color:rgb(71, 44, 37);
+                }
+
+                .menu a:hover{
+                    text-shadow:0 0 10px rgb(255, 255, 255);
+                    color:rgb(100, 44, 37);
+                }
+        
+        #banner-rotativo{
+            margin:20px 0 40px 0;
+        }
+
+            .banner img{
+                outline:2px solid rgb(255, 255, 255);
+                width:960px;
+                height:300px;
+            }
+
+    .cabecalho-box{
+        cursor:pointer;
+        text-align:center;
+        color:rgb(246, 194, 14);
+        font-family:'LubBold';
+    }
+
+        #conteudo .cabecalho-box{
+            text-align:left;
+        }
+
+        .cabecalho-box:hover{
+            color:rgb(246, 170, 0);   
+        }
+
+            .cabecalho-box h1{
+                text-shadow:0 0 5px rgb(0, 0, 0);
+                font-weight:300;
+                font-size:40px;
+            }
+
+        .artistas img{
+            width:615px;
+            height:auto;
+        }
+
+    .ingressos{
+        text-align:center;
+    }
+
+    .mensagem-boas-vindas{
+        background-size:615px auto;
+        background:url('../imagens/bg-boas-vindas.png') no-repeat;
+    }
+
+    .mensagem-boas-vindas p{
+        text-align:justify;
+        font-size:20px;
+        line-height:25px;
+        padding:20px;
+    }
+
+    .mensagem-ingresso{
+        width:282px;
+        height:243px;
+        background:url('../imagens/bg-compre-ingressos.png') no-repeat;
+    }
+
+        .mensagem-ingresso h2,
+        .mensagem-pontos-de-venda h2{
+            line-height:30px;
+            color:rgb(76, 46, 36);
+            font-size:30px;
+            font-weight:300;
+            font-family:'LubBold';
+        }
+
+        .mensagem-ingresso h2{
+            padding:65px 30px 40px 30px;
+        }
+
+    .mensagem-pontos-de-venda{
+        width:287px;
+        height:261px;
+        background:url('../imagens/bg-pontos-de-venda.png') no-repeat;
+    }
+
+        .mensagem-pontos-de-venda h2{
+            padding:95px 30px 40px 40px;
+        }
+
+    #rodape{
+        border-top:2px solid rgb(88,72,47);
+        box-shadow:0px 5px 25px rgb(0, 0, 0);
+        margin-top:20px;
+        padding:20px 20px 50px 20px;
+        background:rgb(182, 154, 81);
+        background:-moz-linear-gradient(top, rgb(182, 154, 81) 47%, rgb(88, 72, 47) 100%);
+        background:-webkit-gradient(linear, right top, right bottom, color-stop(47%, rgb(182, 154, 81)), color-stop(100%, rgb(88, 72, 47)));
+        background:linear-gradient(to top, rgb(182, 154, 81) 47%, rgb(88, 72, 47) 100%);
+        background:-o-linear-gradient(top, rgb(182, 154, 81), rgb(88, 72, 47));
+    }
+
+    /* Hack IE :( */
+        #rodape-ie{
+            margin-top:20px;
+            padding:20px 20px 50px 20px;
+            border-top:2px solid rgb(88,72,47);
+            background:rgb(182, 154, 81) url('../imagens/bg-rodape.jpg') repeat-x;
+        }
+    /* endOf Hack IE */
+    
+            #rodape p{
+                text-align:center;
+                font-size:20px;
+                margin-bottom:0;
+            }
+
+                #rodape a{
+                    text-decoration:none;
+                    font-size:12px;
+                    font-weight:bold;
+                    color:rgb(0, 0, 0);
+                }
+
+                #rodape a:hover{
+                    border-bottom:1px dotted rgb(0, 0, 0);
+                }
