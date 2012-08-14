@@ -18,7 +18,7 @@
             
             <div class="logotipo container_12">
                 <a href="#" title="Quintaneja &#8212; A maior quinta sertaneja do ABC">
-                    <img src="" alt="Quintaneja &#8212; A maior quinta sertaneja do ABC" />
+                    <img src="imagens/logotipo-quintaneja.png" alt="Quintaneja &#8212; A maior quinta sertaneja do ABC" />
                 </a>
             </div>
             
@@ -57,20 +57,23 @@
                     <div class="cabecalho-box">
                         <h1>Bem-vindo a nossa festa!</h1>
                     </div>
-                    <p>
-                        A nossa festa sertaneja acontece todas as quintas-feiras
-                        do mês, trazendo sempre uma ótima atração.
-                        São diversos artistas da região que agitam a nossa
-                        noite, sempre com muita música, alegria e 
-                        descontração.
-                        <br />
-                        Gente bonita, mulheres VIP até as 00h, segurança,
-                        premiações e muito mais! Venha curtir com a gente
-                        e traga seus amigos para nossa festa!
-                        <br />
-                        Isso tudo faz da Quintaneja a melhor quinta-feira
-                        do ABC!!!
-                    </p>
+
+                    <div class="mensagem-boas-vindas">
+                        <p>
+                            A nossa festa sertaneja acontece todas as quintas-feiras
+                            do mês, trazendo sempre uma ótima atração.
+                            São diversos artistas da região que agitam a nossa
+                            noite, sempre com muita música, alegria e 
+                            descontração.
+                            <br />
+                            Gente bonita, mulheres VIP até as 00h, segurança,
+                            premiações e muito mais! Venha curtir com a gente
+                            e traga seus amigos para nossa festa!
+                            <br />
+                            Isso tudo faz da Quintaneja a melhor quinta-feira
+                            do ABC!!!
+                        </p>
+                    </div> <!-- endOf Mensagem de boas-vindas -->
                 </div> <!-- endOf Boas-vindas -->
 
 
@@ -124,18 +127,24 @@
                 </div> <!-- endOf Player de música -->
 
                 <div class="ingressos">
+
                     <div class="cabecalho-box">
                         <h1>Ingressos</h1>
                     </div>
 
                     <div class="ingresso-antecipado">
-                        <h2>Compre os ingressos antecipados</h2>
+                        <div class="mensagem-ingresso">
+                            <h2>Compre os ingressos antecipados</h2>
+                        </div> <!-- endOf Mensagem sobre ingressos antecipados -->
                     </div> <!-- endOf Ingresso Antecipado -->
 
                     <div class="pontos-de-venda">
-                        <h2>Conheça os pontos de venda</h2>
+                        <div class="mensagem-pontos-de-venda">
+                            <h2>Conheça os pontos de venda</h2>
+                        </div> <!-- endOf Mensagem sobre pontos de venda -->
                     </div> <!-- endOf Pontos de venda -->
-                </div> <!-- endOf Ingresso -->
+
+                </div> <!-- endOf Ingressos -->
 
             </div> <!-- endOf Barra lateral direita -->
 

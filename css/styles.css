@@ -11,13 +11,29 @@
 
 /* endOf Incorporação da fonte */
 
+/* Efeitos */
+*::selection {
+    background:rgb(71, 44, 37);
+}
+
+*::-moz-selection {
+    background:rgb(71, 44, 37);
+}
+
+/* endOf Efeitos */
+
 body{
-    background:rgb(196, 167, 123);
+    background:rgb(71, 44, 37) url('../imagens/bg-body.jpg');
 }
 
     #cabecalho{
+        background:url('../imagens/bg-cabecalho.jpg');
         text-align:center;
     }
+
+        .logotipo img{
+            width:380px;
+        }
 
         .slogan h1{
             font-weight:300;
@@ -26,12 +42,23 @@ body{
             color:rgb(199, 172, 127);
         }
 
+        .navegacao{
+            text-align: center;
+            line-height:80px;
+            height:80px;
+            background:url('../imagens/bg-menu.png') repeat-x center center;
+            background-size:cover;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./imagens/bg-menu.png', sizingMethod='scale');
+            -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./imagens/bg-menu.png', sizingMethod='scale')";
+        }
+
         .menu ul{
             list-style-type:none;
-            display:inline;
+            display:inline-block;
         }
 
             .menu li{
+                margin-left:20px;
                 width:auto;
                 float:left;
             }
@@ -39,18 +66,18 @@ body{
                 .menu a{
                     text-transform:uppercase;
                     text-decoration:none;
-                    font-weight:bold;
-                    font-family:'LubNormal';
-                    font-size:16px;
+                    font-family:'LubBold';
+                    font-size:17px;
                     color:rgb(71, 44, 37);
                 }
 
                 .menu a:hover{
-                    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+                    text-shadow:0 0 10px rgb(255, 255, 255);
                     color:rgb(100, 44, 37);
                 }
 
     .cabecalho-box{
+        cursor:pointer;
         text-align:center;
         color:rgb(246, 194, 14);
         font-family:'LubBold';
@@ -65,6 +92,7 @@ body{
         }
 
             .cabecalho-box h1{
+                text-shadow:0 0 5px rgb(0, 0, 0);
                 font-weight:300;
                 font-size:40px;
             }
@@ -73,18 +101,46 @@ body{
         text-align:center;
     }
 
-        .ingressos h2{
+    .mensagem-boas-vindas{
+        background-size:615px auto;
+        background:url('../imagens/bg-boas-vindas.png') no-repeat;
+    }
+
+    .mensagem-boas-vindas p{
+        text-align:justify;
+        font-size:20px;
+        line-height:25px;
+        padding:20px;
+    }
+
+    .mensagem-ingresso{
+        width:282px;
+        height:243px;
+        background:url('../imagens/bg-compre-ingressos.png') no-repeat;
+    }
+
+        .mensagem-ingresso h2,
+        .mensagem-pontos-de-venda h2{
+            line-height:30px;
             color:rgb(76, 46, 36);
             font-size:30px;
             font-weight:300;
             font-family:'LubBold';
         }
 
-    #conteudo p{
-        text-align:justify;
-        font-size:20px;
-        line-height:25px;
+        .mensagem-ingresso h2{
+            padding:65px 30px 40px 30px;
+        }
+
+    .mensagem-pontos-de-venda{
+        width:287px;
+        height:261px;
+        background:url('../imagens/bg-pontos-de-venda.png') no-repeat;
     }
+
+        .mensagem-pontos-de-venda h2{
+            padding:95px 30px 40px 40px;
+        }
 
     #rodape{
 
