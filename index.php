@@ -44,10 +44,10 @@
 
         <div id="container" class="container_12">
             
-            <div id="banner-rotativo" class="grid_12">
+            <div id="banner-rotativo" class="alpha grid_12 omega">
 
                 <div class="banner">
-                    <img src="" alt="" />
+                    <img src="imagens/banner.jpg" alt="" />
                 </div> <!-- endOf Banner -->
 
             </div> <!-- endOf Banner Rotativo -->
@@ -75,6 +75,12 @@
                         </p>
                     </div> <!-- endOf Mensagem de boas-vindas -->
                 </div> <!-- endOf Boas-vindas -->
+
+                <div class="fotos-artistas">
+                    <div class="artistas">
+                        <img src="imagens/artistas.png" alt="" />
+                    </div>
+                </div>
 
 
                 <div class="galeria-fotos">
@@ -150,7 +156,13 @@
 
         </div> <!-- endOf Container -->
 
-        <div id="rodape">
+        <!--[if lt IE 9]>
+            <div id="rodape-ie">
+        <![endif]-->
+
+        <!--[if !IE]><!-->
+            <div id="rodape">        
+        <!--<![endif]-->
             <p>
                 Todos os direitos reservados a Festa Quintaneja &#8212; 2012
             </p>
