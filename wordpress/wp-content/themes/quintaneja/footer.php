@@ -1,4 +1,4 @@
-    <!--[if lt IE 9]>
+    <!--[if IE 9]>
         <div id="rodape-ie">
     <![endif]-->
 
@@ -11,10 +11,10 @@
 
         <p>
             <a href="http://www.agenciadardo.com.br">
-                &plus; Dardo &amp; Dagny
+                 + Dardo &amp; Dagny
             </a>
         </p>
     </div> <!-- endOf Rodapé -->
-<?php wp_footer(); ?>
-</body>
+    <?php wp_footer(); ?>
+    </body>
 </html>

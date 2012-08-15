@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
     <head>
+        <script type="text/javascript" src="https://getfirebug.com/firebug-lite.js"></script>
         <meta charset="<?php bloginfo('charset'); ?>" />
         <title><?php bloginfo('title'); ?> &#8212; A maior quinta sertaneja do ABC</title>
         <meta name="keywords" content="" />
