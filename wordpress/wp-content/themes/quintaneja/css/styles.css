@@ -216,19 +216,22 @@ body{
         }
     /* endOf Hack IE */
     
-            #rodape p{
+            #rodape p,
+            #rodape-ie p{
                 text-align:center;
                 font-size:20px;
                 margin-bottom:0;
             }
 
-                #rodape a{
+                #rodape a,
+                #rodape-ie a{
                     text-decoration:none;
                     font-size:12px;
                     font-weight:bold;
                     color:rgb(0, 0, 0);
                 }
 
-                #rodape a:hover{
+                #rodape a:hover,
+                #rodape-ie a:hover{
                     border-bottom:1px dotted rgb(0, 0, 0);
                 }
