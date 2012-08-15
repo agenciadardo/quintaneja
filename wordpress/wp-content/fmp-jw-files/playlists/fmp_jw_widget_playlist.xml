@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist>
+  <trackList>
+    <track>
+      <annotation>Música 1</annotation>
+      <location>http://127.0.0.1/server/quintaneja/wordpress/wp-content/themes/quintaneja/musicas/1.mp3</location>
+      <info></info>
+      <image></image>
+    </track>
+    <track>
+      <annotation>Música 2</annotation>
+      <location></location>
+      <info>http://127.0.0.1/server/quintaneja/wordpress/wp-content/themes/quintaneja/musicas/2.mp3</info>
+      <image></image>
+    </track>
+    <track>
+      <annotation>Música 3</annotation>
+      <location>http://127.0.0.1/server/quintaneja/wordpress/wp-content/themes/quintaneja/musicas/3.mp3</location>
+      <info></info>
+      <image></image>
+    </track>
+  </trackList>
+</playlist>

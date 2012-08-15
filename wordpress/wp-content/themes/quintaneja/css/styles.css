@@ -154,6 +154,20 @@ body{
                 font-family:'Bevan', cursive;
             }
 
+    .player{
+        text-align: center;
+    }
+
+    .player object{
+        outline:2px solid rgb(71, 44, 37);
+    }
+
+    .player object:hover{
+        outline:2px solid rgb(61, 34, 27);
+    }
+
+
+
     .mensagem-ingresso{
         width:282px;
         height:243px;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp3config>
+  <autostart>true</autostart>
+  <shuffle>true</shuffle>
+  <repeat>all</repeat>
+  <volume>10</volume>
+  <showdisplay>true</showdisplay>
+  <showplaylist>true</showplaylist>
+  <linktarget>_top</linktarget>
+  <backcolor>0x4c2e24</backcolor>
+  <frontcolor>0xc7ac7f</frontcolor>
+  <lightcolor>0xffffff</lightcolor>
+  <jpgfile></jpgfile>
+</mp3config>
