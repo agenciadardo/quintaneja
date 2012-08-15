@@ -7,6 +7,7 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta name="author" content="Marcker: marckfree at gmail.com" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bevan"  />
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/reset.css" />
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/text.css" />
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/960.css" />

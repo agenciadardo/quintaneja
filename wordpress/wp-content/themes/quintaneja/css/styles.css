@@ -1,16 +1,3 @@
-/* Incorporação da fonte */
-@font-face{  
-    font-family:LubNormal;  
-    src:url('../recursos/LUBGRHN.TTF') format("truetype");
-}
-
-@font-face{
-    font-family:LubBold;  
-    src:url('../recursos/LUBGRHB.TTF') format("truetype");
-}
-
-/* endOf Incorporação da fonte */
-
 /* Efeitos */
 *::selection {
     color:rgb(255, 255, 255);
@@ -45,7 +32,7 @@ body{
         .slogan h1{
             font-weight:300;
             font-size:40px;
-            font-family:'LubBold';
+            font-family:'Bevan', cursive;
             color:rgb(199, 172, 127);
         }
 
@@ -74,7 +61,7 @@ body{
                 .menu a{
                     text-transform:uppercase;
                     text-decoration:none;
-                    font-family:'LubBold';
+                    font-family:'Bevan', cursive;
                     font-size:17px;
                     color:rgb(71, 44, 37);
                 }
@@ -98,7 +85,7 @@ body{
         cursor:pointer;
         text-align:center;
         color:rgb(246, 194, 14);
-        font-family:'LubBold';
+        font-family:'Bevan', cursive;
     }
 
         #conteudo .cabecalho-box{
@@ -112,7 +99,8 @@ body{
             .cabecalho-box h1{
                 text-shadow:0 0 5px rgb(0, 0, 0);
                 font-weight:300;
-                font-size:40px;
+                font-size:30px;
+                margin-top:20px;
             }
 
         .artistas img{
@@ -163,7 +151,7 @@ body{
                 float:left;
                 line-height:70px;
                 color:rgb(241, 231, 198);
-                font-family:'LubNormal';
+                font-family:'Bevan', cursive;
             }
 
     .mensagem-ingresso{
@@ -178,7 +166,7 @@ body{
             color:rgb(76, 46, 36);
             font-size:30px;
             font-weight:300;
-            font-family:'LubBold';
+            font-family:'Bevan', cursive;
         }
 
         .mensagem-ingresso h2{
