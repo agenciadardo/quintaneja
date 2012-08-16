@@ -6,7 +6,18 @@
                 </div>
 
                 <div class="video-embedded">
-                    <!-- <img src="" alt="" /> -->
+                    <object width="250" height="250">
+                        <param name="movie" value="https://www.youtube.com/v/videoseries?listType=user_uploads&list=rapcontemporaneo&autoplay=1&version=3&modestbranding=1"></param>
+                        <param name="allowFullScreen" value="true"></param>
+                        <param name="allowScriptAccess" value="always"></param>
+                        <embed src="https://www.youtube.com/v/videoseries?listType=user_uploads&list=rapcontemporaneo&autoplay=1&version=3&modestbranding=1" 
+                               type="application/x-shockwave-flash" 
+                               allowfullscreen="true" 
+                               allowScriptAccess="always" 
+                               width="250" 
+                               height="250">
+                        </embed>
+                    </object>            
                 </div> <!-- endOf Vídeo embedded -->
             </div> <!-- endOf Vídeos -->
 

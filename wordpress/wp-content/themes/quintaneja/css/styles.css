@@ -75,7 +75,7 @@ body{
             margin:20px 0 40px 0;
         }
 
-            .banner img{
+            .banner .meteor-clip{
                 outline:2px solid rgb(255, 255, 255);
                 width:960px;
                 height:300px;
@@ -154,17 +154,29 @@ body{
                 font-family:'Bevan', cursive;
             }
 
+    .video-embedded{
+        text-align:center;
+    }
+
+        .video-embedded embed{
+            border:5px solid rgb(71, 44, 37);
+        }
+
+        .video-embedded embed:hover{
+            border:5px solid rgb(61, 34, 27);
+        }
+
     .player{
         text-align: center;
     }
 
-    .player object{
-        outline:2px solid rgb(71, 44, 37);
-    }
+        .player object{
+            border:5px solid rgb(71, 44, 37);
+        }
 
-    .player object:hover{
-        outline:2px solid rgb(61, 34, 27);
-    }
+        .player object:hover{
+            border:5px solid rgb(61, 34, 27);
+        }
 
 
 

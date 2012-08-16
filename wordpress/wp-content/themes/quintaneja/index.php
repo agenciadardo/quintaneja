@@ -5,7 +5,11 @@
     <div id="banner-rotativo" class="alpha grid_12 omega">
 
         <div class="banner">
-            <img src="<?php bloginfo('template_url'); ?>/imagens/banner.jpg" alt="" />
+            <?php 
+                if ( function_exists( 'meteor_slideshow' ) ) { 
+                    meteor_slideshow(); 
+                } 
+            ?>
         </div> <!-- endOf Banner -->
 
     </div> <!-- endOf Banner Rotativo -->

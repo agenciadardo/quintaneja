@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mp3config>
-  <autostart>true</autostart>
+  <autostart>false</autostart>
   <shuffle>true</shuffle>
   <repeat>all</repeat>
   <volume>10</volume>
@@ -10,5 +10,5 @@
   <backcolor>0x4c2e24</backcolor>
   <frontcolor>0xc7ac7f</frontcolor>
   <lightcolor>0xffffff</lightcolor>
-  <jpgfile></jpgfile>
+  <jpgfile>https://lh5.googleusercontent.com/-D8QaWL2LyIc/UC0SdGM39KI/AAAAAAAABAM/ZcCxaBSFwzU/s350/bg-flash-mp3-player.jpg</jpgfile>
 </mp3config>
