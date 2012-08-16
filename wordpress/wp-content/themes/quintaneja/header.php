@@ -46,10 +46,10 @@
             </div>
 
             <div class="navegacao">
-                <div class="menu container_12">
+                <div class="menu">
                     <ul>
                         <li><a href="http://www.festaquintaneja.com.br" title="Inicial">Inicial</a></li>
-                        <?php wp_list_pages('title_li&post_date&sort_order=DESC'); ?>
+                        <?php wp_list_pages('title_li&sort_column=post_date'); ?>
                     </ul>
                 </div> <!-- endOf Menu -->
             </div> <!-- endOf Navegação -->

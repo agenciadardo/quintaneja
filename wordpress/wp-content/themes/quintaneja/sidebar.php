@@ -7,17 +7,17 @@
 
                 <div class="video-embedded">
                     <object width="250" height="250">
-                        <param name="movie" value="https://www.youtube.com/v/videoseries?listType=user_uploads&list=rapcontemporaneo&autoplay=1&version=3&modestbranding=1"></param>
+                        <param name="movie" value="https://www.youtube.com/v/videoseries?listType=playlist&list=ALYL4kY05133ohSYUqR_phVX8cJdxXbe5_&autoplay=1&modestbranding=1&version=3"></param>
                         <param name="allowFullScreen" value="true"></param>
                         <param name="allowScriptAccess" value="always"></param>
-                        <embed src="https://www.youtube.com/v/videoseries?listType=user_uploads&list=rapcontemporaneo&autoplay=1&version=3&modestbranding=1" 
+                        <embed src="https://www.youtube.com/v/videoseries?listType=playlist&list=ALYL4kY05133ohSYUqR_phVX8cJdxXbe5_&autoplay=1&modestbranding=1&version=3" 
                                type="application/x-shockwave-flash" 
                                allowfullscreen="true" 
                                allowScriptAccess="always" 
                                width="250" 
                                height="250">
                         </embed>
-                    </object>            
+                    </object>       
                 </div> <!-- endOf Vídeo embedded -->
             </div> <!-- endOf Vídeos -->
 
@@ -55,13 +55,17 @@
 
                 <div class="ingresso-antecipado">
                     <div class="mensagem-ingresso">
-                        <h2>Compre os ingressos antecipados</h2>
+                        <a href="<?php bloginfo('url'); ?>/ingressos">
+                            Compre os ingressos antecipados
+                        </a>
                     </div> <!-- endOf Mensagem sobre ingressos antecipados -->
                 </div> <!-- endOf Ingresso Antecipado -->
 
                 <div class="pontos-de-venda">
                     <div class="mensagem-pontos-de-venda">
-                        <h2>Conheça os pontos de venda</h2>
+                        <a href="<?php bloginfo('url'); ?>/ingressos">
+                            Conheça os pontos<br /> de venda
+                        </a>
                     </div> <!-- endOf Mensagem sobre pontos de venda -->
                 </div> <!-- endOf Pontos de venda -->
 

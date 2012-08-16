@@ -62,7 +62,7 @@ body{
                     text-transform:uppercase;
                     text-decoration:none;
                     font-family:'Bevan', cursive;
-                    font-size:17px;
+                    font-size:20px;
                     color:rgb(71, 44, 37);
                 }
 
@@ -181,33 +181,29 @@ body{
 
 
     .mensagem-ingresso{
+        padding-top:55px;
         width:282px;
-        height:243px;
+        height:185px;
         background:url('../imagens/bg-compre-ingressos.png') no-repeat;
     }
 
-        .mensagem-ingresso h2,
-        .mensagem-pontos-de-venda h2{
-            line-height:30px;
+        .mensagem-ingresso a,
+        .mensagem-pontos-de-venda a{
+            text-transform:uppercase;
+            text-decoration:none;
+            line-height:40px;
             color:rgb(76, 46, 36);
-            font-size:30px;
+            font-size:25px;
             font-weight:300;
             font-family:'Bevan', cursive;
         }
 
-        .mensagem-ingresso h2{
-            padding:65px 30px 40px 30px;
-        }
-
     .mensagem-pontos-de-venda{
+        padding-top:85px;
         width:287px;
         height:261px;
         background:url('../imagens/bg-pontos-de-venda.png') no-repeat;
     }
-
-        .mensagem-pontos-de-venda h2{
-            padding:95px 30px 40px 40px;
-        }
 
     #rodape{
         border-top:2px solid rgb(88,72,47);
