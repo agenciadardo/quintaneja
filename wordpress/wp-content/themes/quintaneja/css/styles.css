@@ -124,6 +124,14 @@ body{
         padding:20px;
     }
 
+    .galeria-fotos{
+        margin-bottom:40px;        
+    }
+
+        .slideshowlink{
+            display:none;
+        }
+
     .facebook-app{
         padding:25px 20px 20px 20px;
         background:url('../imagens/bg-facebook-app.png') no-repeat;
