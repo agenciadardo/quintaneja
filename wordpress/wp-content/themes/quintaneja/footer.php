@@ -1,4 +1,4 @@
-    <!--[if IE 9]>
+    <!--[if lt IE 9]>
         <div id="rodape-ie">
     <![endif]-->
 

@@ -54,3 +54,17 @@
             </div> <!-- endOf Navegação -->
 
         </div> <!-- endOf Cabeçalho -->
+        
+        <div id="container" class="container_12">
+            
+            <div id="banner-rotativo" class="alpha grid_12 omega">
+
+                <div class="banner">
+                    <?php 
+                        if ( function_exists( 'meteor_slideshow' ) ) { 
+                            meteor_slideshow("banner-home"); 
+                        } 
+                    ?>
+                </div> <!-- endOf Banner -->
+
+            </div> <!-- endOf Banner Rotativo -->

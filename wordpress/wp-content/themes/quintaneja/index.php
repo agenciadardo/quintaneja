@@ -1,19 +1,5 @@
 <?php get_header(); ?>
 
-<div id="container" class="container_12">
-    
-    <div id="banner-rotativo" class="alpha grid_12 omega">
-
-        <div class="banner">
-            <?php 
-                if ( function_exists( 'meteor_slideshow' ) ) { 
-                    meteor_slideshow(); 
-                } 
-            ?>
-        </div> <!-- endOf Banner -->
-
-    </div> <!-- endOf Banner Rotativo -->
-
     <div id="conteudo" class="alpha grid_8 omega">
         <div class="boas-vindas">
             <div class="cabecalho-box">
@@ -52,7 +38,7 @@
             
             <div class="album-fotos">
                 <?php 
-                    echo do_shortcode('[nggallery id=1 w=200 h=200]');
+                    echo do_shortcode('[nggallery id=1]');
                 ?>
             </div> <!-- endOf Álbum de fotos -->
         </div><!--  endOf Galeria de fotos -->

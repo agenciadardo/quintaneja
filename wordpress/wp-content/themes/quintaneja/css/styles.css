@@ -62,7 +62,7 @@ body{
                     text-transform:uppercase;
                     text-decoration:none;
                     font-family:'Bevan', cursive;
-                    font-size:20px;
+                    font-size:16px;
                     color:rgb(71, 44, 37);
                 }
 
@@ -133,6 +133,8 @@ body{
         }
 
     .facebook-app{
+        width:580px;
+        height:445px;
         padding:25px 20px 20px 20px;
         background:url('../imagens/bg-facebook-app.png') no-repeat;
         background-size:600px 445px;
@@ -253,3 +255,65 @@ body{
                 #rodape-ie a:hover{
                     border-bottom:1px dotted rgb(0, 0, 0);
                 }
+
+ /* Páginas */
+    /*  Header */
+    .header-pagina{
+        background:url('../imagens/bg-header-pagina.jpg') no-repeat;   
+        width:874px;
+        height:65px;
+        margin:0 auto;
+        padding:10px;
+        cursor:pointer;
+    }
+            .header-pagina h1{
+                text-align:center;
+                color:rgb(246,194,14);
+                letter-spacing:2px;
+                text-transform:uppercase;
+                text-shadow:0 0 5px rgb(0, 0, 0);
+                font-family:'Bevan',cursive;
+                font-weight:300;
+                font-size:30px;
+                margin:15px 0 0 0;
+            }
+
+                .header-pagina h1:hover{
+                    color:rgb(246, 170, 0);   
+                }
+    /* / Header */
+
+    /* Conteúdo interno */
+    .header-conteudo-interno{
+        height:40px;
+        background:url('../imagens/bg-pagina-topo.png') no-repeat;    
+    }
+
+        /*  Texto */
+        .texto-pagina{
+            padding:0 35px 0 35px;
+        }
+        
+            .texto-pagina p{
+                text-align:justify;
+                color:rgb(71,44,37);
+                font-family:'Bevan',cursive;
+                font-weight:300;
+                font-size:16px;
+                line-height:40px;
+            }
+        /* / Texto */
+
+        .conteudo-interno{
+            background:url('../imagens/bg-pagina.png') repeat-y;
+        }
+    /* / Conteúdo interno */
+
+    .galeria{
+        margin:0 auto;
+        margin-bottom:50px;
+        padding-bottom:50px;
+        width:810px;
+    }
+
+/* / Páginas*/
