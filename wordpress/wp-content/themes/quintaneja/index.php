@@ -52,7 +52,7 @@
             
             <div class="album-fotos">
                 <?php 
-                    echo do_shortcode('[nggallery id=1 w=200 h=200]'); 
+                    echo do_shortcode('[nggallery id=1 w=200 h=200]');
                 ?>
             </div> <!-- endOf Álbum de fotos -->
         </div><!--  endOf Galeria de fotos -->

@@ -31,7 +31,7 @@
         <div id="cabecalho">
             
             <div class="logotipo container_12">
-                <a href="http://www.festaquintaneja.com.br" 
+                <a href="<?php bloginfo('url'); ?>" 
                    title="Quintaneja &#8212; A maior quinta sertaneja do ABC">
                     
                     <img src="<?php bloginfo('template_url'); ?>/imagens/logotipo-quintaneja.png" 
@@ -47,7 +47,7 @@
             <div class="navegacao">
                 <div class="menu">
                     <ul>
-                        <li><a href="http://www.festaquintaneja.com.br" title="Inicial">Inicial</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>  " title="Inicial">Inicial</a></li>
                         <?php wp_list_pages('title_li&sort_column=post_date'); ?>
                     </ul>
                 </div> <!-- endOf Menu -->
