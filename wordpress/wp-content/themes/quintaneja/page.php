@@ -30,6 +30,9 @@
                             elseif (is_page('aniversario')) {
                                 include 'aniversario.php';
                             }
+                            elseif (is_page('ingressos')) {
+                                include 'ingressos.php';
+                            }
                             elseif (is_page('contato')) {
                                 include 'contato.php';
                             } 

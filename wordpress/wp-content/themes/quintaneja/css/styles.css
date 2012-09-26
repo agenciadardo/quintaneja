@@ -351,7 +351,8 @@ body{
     }
 
     .conteudo-aniversario .texto-pagina p,
-    .conteudo-contato .texto-pagina p{
+    .conteudo-contato .texto-pagina p,
+    .conteudo-ingressos .texto-pagina p{
         font-size:20px;
     }
 
@@ -433,5 +434,43 @@ body{
             color:rgb(71,44,37);
         }
     /* / Aniversário*/
+
+    /* Ingressos */
+    .texto-pagina h1{
+        color:rgb(0,0,0);
+        font-family:'Bevan',cursive;
+        font-weight:300;
+        font-size:35px;
+    }
+
+    .imagem-ponto-de-venda{
+        margin-right:20px;
+        border:1px solid black;
+        width:120px;
+        height:100px;
+        float:left;
+        display:block;
+    }
+
+    .endereco-ponto-de-venda{
+        padding-top:25px;
+    }
+
+    .endereco-ponto-de-venda p{
+        line-height:0;
+    }
+
+        .endereco-ponto-de-venda span{
+            font-size:25px;
+        }
+
+    .ponto-de-venda{
+        padding:0 0 50px 135px;
+        margin-bottom:35px;
+        width:735px;
+        display:block;
+    }
+
+    /* / Ingressos */
 
 /* / Páginas*/
