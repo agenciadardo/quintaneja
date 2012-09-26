@@ -1,38 +1,47 @@
 <!doctype html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>P&eacute;rola Neggra</title>
+        <title>Enviando mensagem de <?php echo $_POST["textbox-nome"]; ?></title>
         <?php
 
-        $pagina_origem = $_SERVER['HTTP_REFERER'];
-        $nome = htmlspecialchars($_POST['textbox_nome']);
-        $email = htmlspecialchars($_POST['textbox_email']);
-        $telefone = htmlspecialchars($_POST['textbox_telefone']);
-        $mensagem = htmlspecialchars($_POST['textarea_mensagem']);
-        $data_atual = date('d/m/Y H:i:s');
+        if (PATH_SEPARATOR == ";") { 
+            $quebraLinha = "\r\n";
+        }
+        else {
+            $quebraLinha = "\n";
+        }
+                 
+        $destinatario = "marcos.garcia@agenciadardo.com.br";
+        $paginaOrigem = $_SERVER["HTTP_REFERER"];
 
-        $header = "ENVIADO POR: " . $nome . " <" . $email . "> \r\n";
-        $conteudo = "NOME: " . $nome . "\n";
-        $conteudo .= "E-MAIL: " . $email . "\n";
-        $conteudo .= "TELEFONE: " . $telefone . "\n\n";
-        $conteudo .= "MENSAGEM:\n\n " . $mensagem;
-        $assunto = "Pérola Neggra - Contato " . $data_atual;
+        $nome = $_POST["textbox-nome"];
+        $email = $_POST["textbox-email"];
+        $numeroTelefone = $_POST["textbox-telefone"];
+        $estado = $_POST["textbox-estado"];
+        $mensagem = $_POST["textarea-mensagem"];
+        
+        $conteudo = 
+       '<p><b>Nome:</b> ' . $nome . '</p>
+        <p><b>E-mail:</b> '. $email . '</p>
+        <p><b>Telefone:</b> ' . $numeroTelefone . '</p>
+        <p><b>Estado:</b> ' . $estado . '</p>
+        <p><b>Mensagem:</b><pre> '. $mensagem . '</pre></p>';
+        
+        $assunto = basename($paginaOrigem) == "aniversario" ? "[ Aniversário ] Mensagem" : "[ Contato ] Mensagem";
+        $headers .= "MIME-Version: 1.1" . $quebraLinha;
+        $headers .= "Content-type: text/html; charset=utf-8" . $quebraLinha;
+        $headers .= "From: " . $email . $quebraLinha;
 
-        $destinatario = "marckfree@gmail.com";
-        $destinatario = explode(",", $destinatario);
-        $destinatario_qtd = count($destinatario);
-
-        for($i = 0; $i < $destinatario_qtd; $i += 1) {
-            $destino = trim($destinatario[$i]);
-            $enviado = mail($destino, $assunto, $conteudo, $header);
+        if(!mail($destinatario, $assunto, $conteudo, $headers , "-r" . $destinatario)) {
+            mail($destinatario, $assunto, $conteudo, $headers);
         }
 
-        if ($enviado) {
-            echo "<meta http-equiv='refresh' content='0;url=" . $pagina_origem . "?enviado=1#formulario-contato' />";
-        }
+        echo "<meta http-equiv='refresh' content='0;url=" . $paginaOrigem . "?enviado=1#obrigado' />";
+
         ?>
     </head>
     <body>
+
     </body>
 </html>

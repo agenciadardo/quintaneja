@@ -311,7 +311,6 @@ body{
 
     .galeria{
         margin:0 auto;
-        margin-bottom:50px;
         padding-bottom:50px;
         width:810px;
     }
@@ -342,6 +341,97 @@ body{
             }
     /* / Agenda */
 
-    .header-agenda
+    /* Anivesário */
+    .texto-pagina span,
+    .formulario label{
+        color:rgb(0,0,0);
+        font-family:'Bevan',cursive;
+        font-weight:300;
+        font-size:20px;
+    }
+
+    .conteudo-aniversario .texto-pagina p,
+    .conteudo-contato .texto-pagina p{
+        font-size:20px;
+    }
+
+    .formulario{
+        margin:0 auto;
+        width:500px;
+        padding-bottom:50px;
+    }
+
+        .formulario label{
+            color:rgb(0,0,0);
+            margin-right:10px;
+        }
+
+        .formulario input[type="text"],
+        .formulario textarea{
+            outline:0;
+            margin-bottom:10px;
+            width:350px;
+            height:25px;
+            border:2px solid rgb(71,44,37);
+            background:transparent;
+        }
+
+        .formulario input[type="text"]:focus,
+        .formulario textarea:focus{
+            outline:0;
+            border:2px solid rgb(0,0,0);
+            background:rgb(255,246,200);
+        }
+
+        .formulario textarea{
+            width:348px;
+            height:135px;
+            vertical-align:top;
+        }
+
+        [for="textbox-nome"]{
+            margin-left:57px;
+        }
+
+        [for="textbox-email"]{
+            margin-left:48px;
+        }
+
+        [for="textbox-telefone"]{
+               margin-left:25px;
+        }
+
+        [for="textbox-estado"]{
+               margin-left:46px;
+        }
+
+        #textbox-telefone{
+            width:220px;
+        }
+
+        #textbox-estado{
+            width:50px;
+        }
+
+        .botao-enviar{
+            text-align:right;
+        }
+
+        .botao-enviar input{
+            cursor:pointer;
+            border:1px solid rgb(71,44,37);
+            color:rgb(255,255,255);
+            font-family:'Bevan',cursive;
+            font-weight:300;
+            font-size:20px;
+            width:115px;
+            height:35px;
+            background:rgb(182,154,81) url('../imagens/bg-botao-enviar.jpg') repeat-x;
+        }
+
+        .botao-enviar input:hover{
+            color:rgb(71,44,37);
+        }
+    /* / Aniversário*/
 
 /* / Páginas*/

@@ -2,8 +2,8 @@
 
     <div id="conteudo" class="grid_12"><!-- Conteúdo -->
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>           
-            <?php 
-                $nomePagina = preg_replace('[\s]', '-', strtolower(get_the_title()));
+            <?php
+                $nomePagina = basename($_SERVER['REQUEST_URI']);
             ?>
 
             <div class="conteudo-<?php echo $nomePagina; ?>">
@@ -26,6 +26,12 @@
                             }
                             elseif (is_page('agenda')) {
                                 include 'agenda.php';
+                            }
+                            elseif (is_page('aniversario')) {
+                                include 'aniversario.php';
+                            }
+                            elseif (is_page('contato')) {
+                                include 'contato.php';
                             } 
                         ?>
                     </div>
