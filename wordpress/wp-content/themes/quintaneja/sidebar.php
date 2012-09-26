@@ -27,22 +27,24 @@
                 </div>
 
                 <div class="player">
-                    <?php 
+                    <?php
+                    $playlist = get_bloginfo('url') . '/wp-content/fmp-jw-files/playlists/fmp_jw_widget_playlist.xml';
+                    $configs = get_bloginfo('url') . '/wp-content/fmp-jw-files/configs/fmp_jw_widget_config.xml';
+
                     $args = array(
-                      //the entire url of the config file, must
-                      'config_url' => 'http://127.0.0.1/server/quintaneja/wordpress/wp-content/fmp-jw-files/configs/fmp_jw_widget_config.xml',
-                      //the entire url of the playlist file (optional)
-                      'playlist_url' => 'http://127.0.0.1/server/quintaneja/wordpress/wp-content/fmp-jw-files/playlists/fmp_jw_widget_playlist.xml',
+                      'config_url' => $configs,
+                      'playlist_url' => $playlist,
                       'width' => 230,
                       'height' => 350,
                       'id' => '',
                       'class' => '',
-                      'transparent' => true,  //this is default
-                      'autostart' => false,  //this is default
-                      'file' => '' //the entire url of the MP3 file (optional)
+                      'transparent' => true,
+                      'autostart' => false,
+                      'file' => ''
                     );
-                    //you should set either "playlist_url" or "file"
+
                     fmp_tag_print_player($args);
+
                     ?>
                 </div> <!-- endOf Player -->
             </div> <!-- endOf Player de música -->

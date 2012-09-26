@@ -14,7 +14,11 @@
                 <div class="conteudo-<?php echo $nomePagina; ?>-interno alpha grid_12">
                     <div class="header-conteudo-interno">
                     </div>
-                    
+        <?php endwhile; else: ?>
+                            <div class="post_conteudo grid_9">
+                                <p><?php _e('Desculpe, não existem postagens sobre esse assunto.'); ?></p>
+                            </div>
+        <?php endif; ?>
                     <div class="conteudo-interno">
                         <?php 
                             if (is_page('a-quintaneja')) {
@@ -24,11 +28,6 @@
                                 include 'agenda.php';
                             } 
                         ?>
-                        <?php endwhile; else: ?>
-                            <div class="post_conteudo grid_9">
-                                <p><?php _e('Desculpe, não existem postagens sobre esse assunto.'); ?></p>
-                            </div>
-                        <?php endif; ?>
                     </div>
                 </div> <!-- / Conteúdo interno -->
             </div>

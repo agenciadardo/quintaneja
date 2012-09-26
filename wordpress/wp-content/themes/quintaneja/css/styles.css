@@ -293,7 +293,7 @@ body{
         .texto-pagina{
             padding:0 35px 0 35px;
         }
-        
+            
             .texto-pagina p{
                 text-align:justify;
                 color:rgb(71,44,37);
@@ -315,5 +315,33 @@ body{
         padding-bottom:50px;
         width:810px;
     }
+
+    /* Agenda */
+    .item-agenda{
+        padding-bottom:50px;
+    }
+
+        .imagem-agenda{
+            text-align:center;        
+        }
+        
+            .imagem-agenda img{
+                width:600px;
+                height:150px;
+            }
+
+        .header-agenda{
+            text-align:center;
+        }
+
+            .header-agenda h1{
+                color:rgb(71,44,37);
+                font-family:'Bevan',cursive;
+                font-weight:300;
+                font-size:25px;
+            }
+    /* / Agenda */
+
+    .header-agenda
 
 /* / Páginas*/
