@@ -6,7 +6,7 @@
         <div id="rodape">        
     <!--<![endif]-->
         <p>
-            Todos os direitos reservados a Festa Quintaneja &#8212; <?php echo date(Y); ?>
+            Todos os direitos reservados a Festa <span>Quintaneja</span> &#8212; <?php echo date(Y); ?>
         </p>
 
         <p>

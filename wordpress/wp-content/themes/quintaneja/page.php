@@ -33,9 +33,12 @@
                             elseif (is_page('ingressos')) {
                                 include 'ingressos.php';
                             }
+                            elseif (is_page('fotos-e-videos')) {
+                                include 'fotos-e-videos.php';
+                            }
                             elseif (is_page('contato')) {
                                 include 'contato.php';
-                            } 
+                            }
                         ?>
                     </div>
                 </div> <!-- / Conteúdo interno -->

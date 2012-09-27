@@ -19,7 +19,7 @@
                     e traga seus amigos para nossa festa!
                     <br />
                     Isso tudo faz da Quintaneja a melhor quinta-feira
-                    do ABC!!!
+                    do ABC!
                 </p>
             </div> <!-- endOf Mensagem de boas-vindas -->
         </div> <!-- endOf Boas-vindas -->

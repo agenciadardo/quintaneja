@@ -1,4 +1,4 @@
-<?php query_posts('posts_per_page=3&category_name=agenda'); ?>
+<?php query_posts('posts_per_page=5&category_name=agenda'); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <?php if ( get_post_meta($post->ID, 'Imagem', true) ) : ?>
 

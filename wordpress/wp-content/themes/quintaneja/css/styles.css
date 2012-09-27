@@ -118,10 +118,13 @@ body{
     }
 
     .mensagem-boas-vindas p{
+        padding:40px 40px 40px;
         text-align:justify;
-        font-size:20px;
-        line-height:25px;
-        padding:20px;
+        text-shadow:0 1px 0 rgb(255,255,255);        
+        color:rgb(71,44,37);
+        font-family:'Bevan',cursive;
+        font-weight:300;
+        font-size:18px;
     }
 
     .galeria-fotos{
@@ -211,7 +214,7 @@ body{
     .mensagem-pontos-de-venda{
         padding-top:85px;
         width:287px;
-        height:261px;
+        height:205px;
         background:url('../imagens/bg-pontos-de-venda.png') no-repeat;
     }
 
@@ -242,6 +245,13 @@ body{
                 font-size:20px;
                 margin-bottom:0;
             }
+
+                #rodape p span,
+                #rodape-ie p span,{
+                    text-shadow: 0px 1px 0px white;
+                    font-family:'Bevan',cursive;
+                    color:rgb(71,44,37);
+                }
 
                 #rodape a,
                 #rodape-ie a{
@@ -313,6 +323,13 @@ body{
         margin:0 auto;
         padding-bottom:50px;
         width:810px;
+    }
+
+    .galeria-fotos-e-videos{
+        margin:0 auto;
+        padding:15px 35px 0 35px;
+        padding-bottom:50px;
+        width:800px;
     }
 
     /* Agenda */
@@ -469,6 +486,10 @@ body{
         margin-bottom:35px;
         width:735px;
         display:block;
+    }
+
+    .conteudo-ingressos-interno{
+        margin-bottom:-34px;
     }
 
     /* / Ingressos */
