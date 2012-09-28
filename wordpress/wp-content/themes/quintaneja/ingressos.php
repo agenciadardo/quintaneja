@@ -8,7 +8,7 @@
 
     <div class="ponto-de-venda">
         <div class="imagem-ponto-de-venda">
-            <img src="" alt="" />
+            <img src="http://www.cokeluxe.com.br/_img/logotipo_rodape.gif" alt="" />
         </div>
 
         <div class="endereco-ponto-de-venda">
@@ -19,23 +19,13 @@
 
     <div class="ponto-de-venda">
         <div class="imagem-ponto-de-venda">
-            <img src="" alt="" />
+            <img src="<?php bloginfo('template_url') ?>/imagens/patrick-cds.png" alt="" />
         </div>
 
         <div class="endereco-ponto-de-venda">
-            <p>Rua Princesa Isabel, 210 - Centro - Mauá - SP.</p>
-            <span>Telefone: 11 4547-2777</span><br />
+            <p>Mauá Plaza Shopping - Piso Térreo, Loja 24.</p>
+            <span>Telefone: 11 4541-4055</span><br />
         </div>
     </div>
 
-    <div class="ponto-de-venda">
-        <div class="imagem-ponto-de-venda">
-            <img src="" alt="" />
-        </div>
-
-        <div class="endereco-ponto-de-venda">
-            <p>Rua Princesa Isabel, 210 - Centro - Mauá - SP.</p>
-            <span>Telefone: 11 4547-2777</span><br />
-        </div>
-    </div>
 </div>

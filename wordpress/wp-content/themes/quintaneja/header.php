@@ -56,6 +56,23 @@
         </div> <!-- endOf Cabeçalho -->
         
         <div id="container" class="container_12">
+
+        <?php if(is_home()){ ?>
+            <div id="popup-campanha">
+              <div class="header-campanha">
+                  <div class="botao-fechar" title="Fechar">
+                      <p>&times;</p>
+                  </div>
+              </div>
+
+              <div class="imagem-campanha">
+                <img src="<?php bloginfo('template_url'); ?>/imagens/campanha/gravacao-dvd.jpg" 
+                     alt="Quintaneja &#8212; A maior quinta sertaneja do ABC" />
+              </div>
+            </div> <!-- / Campanha: Gravação do DVD -->
+        <?php } ?>
+
+
             
             <div id="banner-rotativo" class="alpha grid_12 omega">
 

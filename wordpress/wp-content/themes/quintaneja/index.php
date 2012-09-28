@@ -6,7 +6,7 @@
                 <h1 class="uppercase">Bem-vindo a nossa festa!</h1>
             </div>
 
-            <div class="mensagem-boas-vindas">
+            <div class="mensagem-boas-vindas alpha grid_8">
                 <p>
                     A nossa festa sertaneja acontece todas as quintas-feiras
                     do mês, trazendo sempre uma ótima atração.

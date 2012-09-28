@@ -12,7 +12,7 @@
             $quebraLinha = "\n";
         }
                  
-        $destinatario = "marcos.garcia@agenciadardo.com.br";
+        $destinatario = "contato@festaquintaneja.com.br";
         $paginaOrigem = $_SERVER["HTTP_REFERER"];
 
         $nome = $_POST["textbox-nome"];
